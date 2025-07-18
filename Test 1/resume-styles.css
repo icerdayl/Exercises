@@ -1,0 +1,79 @@
+/*GENERAL*/
+h1, h2, p, dd, dt, footer, li, a {
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ body, footer{
+    background-color: #fefae0;
+}
+a{
+    color:#283618;
+}
+/*HEADER*/
+#home{
+    position: fixed;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: #bc6c25;
+    margin: 0;
+    text-align: center;
+    position: static;
+}
+#title{
+    font-size: 50px;
+    margin-top: -8px;
+}
+#logo{
+    border-radius: 100%;
+    border: solid 5px #283618;
+    width: 150px;
+    margin-bottom: 20px;
+    margin-top: -30px;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    border: 0;
+    background-color: #dda15e;
+    padding: 20px;
+    margin: 0;
+    position: inherit;
+    font-size: cover;
+    
+
+}
+#nav1:hover, #nav2:hover, #nav3:hover, #nav4:hover, #nav5:hover, #nav6:hover{
+    background-color: #283618;
+    padding: 3px;
+    margin: 0px;
+    a{
+        color: #dda15e;
+    }
+    
+}
+
+
+/*BODY*/
+dt{
+    font-weight: bold;
+}
+body{
+    color: #283618;
+    margin: 0;
+}
+/*FOOTER*/
+
+footer{
+    display: flex;
+    margin: 0 10px;
+}
+
+#footer1{
+    margin: 0 10px;
+}
